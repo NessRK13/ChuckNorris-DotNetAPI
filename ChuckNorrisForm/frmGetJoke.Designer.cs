@@ -91,6 +91,7 @@
             this.Controls.Add(this.btnGetJoke);
             this.Name = "frmGetJoke";
             this.Text = "Chuck Norris Jokes";
+            this.Load += new System.EventHandler(this.frmGetJoke_LoadAsync);
             this.ResumeLayout(false);
             this.PerformLayout();
 

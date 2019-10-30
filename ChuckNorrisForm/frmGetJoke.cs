@@ -25,5 +25,15 @@ namespace ChuckNorrisForm
 
             txtJokeDisplay.Text = joke.JokeText;
         }
+
+        private async void frmGetJoke_LoadAsync(object sender, EventArgs e)
+        {
+            IEnumerable<string> categories = await ChuckNorrisClient.GetCategories();
+
+            foreach (var cat in categories)
+            {
+                cbxCategories.Items.Add(cat);
+            }
+        }
     }
 }
