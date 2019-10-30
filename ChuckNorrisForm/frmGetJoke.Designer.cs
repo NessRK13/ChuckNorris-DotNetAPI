@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btnGetJoke = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtJokeDisplay = new System.Windows.Forms.TextBox();
             this.cbxCategories = new System.Windows.Forms.ComboBox();
             this.lblJoke = new System.Windows.Forms.Label();
             this.lblCategories = new System.Windows.Forms.Label();
@@ -44,13 +44,13 @@
             this.btnGetJoke.Text = "Get Joke";
             this.btnGetJoke.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txtJokeDisplay
             // 
-            this.textBox1.Location = new System.Drawing.Point(24, 73);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(187, 102);
-            this.textBox1.TabIndex = 1;
+            this.txtJokeDisplay.Location = new System.Drawing.Point(24, 73);
+            this.txtJokeDisplay.Multiline = true;
+            this.txtJokeDisplay.Name = "txtJokeDisplay";
+            this.txtJokeDisplay.Size = new System.Drawing.Size(187, 102);
+            this.txtJokeDisplay.TabIndex = 1;
             // 
             // cbxCategories
             // 
@@ -86,7 +86,7 @@
             this.Controls.Add(this.lblCategories);
             this.Controls.Add(this.lblJoke);
             this.Controls.Add(this.cbxCategories);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtJokeDisplay);
             this.Controls.Add(this.btnGetJoke);
             this.Name = "frmGetJoke";
             this.Text = "Chuck Norris Jokes";
@@ -98,7 +98,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnGetJoke;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtJokeDisplay;
         private System.Windows.Forms.ComboBox cbxCategories;
         private System.Windows.Forms.Label lblJoke;
         private System.Windows.Forms.Label lblCategories;
