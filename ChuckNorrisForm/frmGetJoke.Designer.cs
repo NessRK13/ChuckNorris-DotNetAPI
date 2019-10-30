@@ -43,6 +43,7 @@
             this.btnGetJoke.TabIndex = 0;
             this.btnGetJoke.Text = "Get Joke";
             this.btnGetJoke.UseVisualStyleBackColor = true;
+            this.btnGetJoke.Click += new System.EventHandler(this.btnGetJoke_ClickAsync);
             // 
             // txtJokeDisplay
             // 
